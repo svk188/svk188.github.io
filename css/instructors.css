@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.body1{
+    background-image: url(https://avatars.mds.yandex.net/get-altay/1678797/2a000001689a130c7fe902c65ff94419c1de/XXL);
+    background-blend-mode: multiply;
+    background-color: #383839;
+    background-size: cover;
+}
+.container {
+    width: 80%;
+    margin-left: 10%;
+    overflow: hidden;
+}
+h1 {
+    padding-top: 5%;
+    color: rgb(184, 182, 182);
+    text-align: center;
+    font-family: Nerko One;
+}
+.container ul li a {
+    color: rgb(184, 182, 182);
+}
+.container ul li a:hover {
+    color: red;
+}
+.container ul li {
+    list-style:none;
+    float: left;
+    width: 20%;
+    margin: 2% 2% 40px 2%;
+}
+
+.container ul h3{
+    text-align: center;
+    font: 19px/1.5 Verdana, Helvetica, Sans-serif;
+}
+.container ul p {
+    text-align: center;
+    font: 12px/1.5 Verdana, Helvetica, Sans-serif;
+}
+.container ul li a img {
+    background: #000000 ;
+    padding:5px;
+    border:2px solid silver;
+    max-width: 100%;
+}
+
+.container ul li a img:hover {
+    background: red;
+}
+
+@media only screen and (max-width: 940px) {
+     h1{
+        padding-top: 15%;
+    }
+    .container ul li {
+        width: 21%;
+    }
+}
+@media only screen and (max-width: 720px) {
+    h1{
+        padding-top: 25%;
+    }
+    .container ul li {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    h1{
+        padding-top: 25%;
+    }
+    .container {
+        margin-left: 7%;
+    }
+    .container ul li {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 470px) {
+    h1{
+        padding-top: 30%;
+    }
+    .container ul li {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    h1{
+        padding-top: 45%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    html, body{
+        width: 100%;
+    }
+    h1{
+        padding-top: 50%;
+    }
+    .container ul li {
+        
+        width: 93%;
+    }
+    
+}

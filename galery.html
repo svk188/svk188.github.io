@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/Users/macbook/Desktop/CourseWork/favicon_created_by_logaster.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/galery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <title>Галерея</title>
+  </head>
+  <body>
+    <header>
+        <div id="menu"> 
+            <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+            <label for="hmt" class="btn-menu">
+                <span class="first"></span>
+                <span class="second"></span>
+                <span class="third"></span>
+            </label>
+        <ul class="hidden-menu">
+            <li><a href="index.html">На главную</a></li>
+            <li><a href="instructors.html">Инструкторы</a></li>
+            <li><a href="price.html">Цены</a></li>
+            <li><a href="galery.html">Галерея</a></li>
+            <li><a href="filials.html">Филиалы</a></li>
+        </ul>
+    </div>
+    <div id="logo" onclick="window.location.href ='index.html#about'">
+        <span>veducar</span>
+        <img src="pngwing.com.png" alt="">
+    </div>
+    <div id="about">
+        <a href="index.html#main" title="Возможности" onclick="slowScroll('#main')">О нас</a>
+        <a href="index.html#overview"  title="Преимущества" onclick="slowScroll('#overview')">Услуги</a>
+        <a href="index.html#faq"  title="Ответы на вопросы" onclick="slowScroll('#faq')">Ответы на вопросы</a>
+        <a href="index.html#footer"  title="Контакты" onclick="slowScroll('#footer')">Контакты</a>
+    </div>
+    </header>
+    <div class="body4">
+        <div id="top">
+        <h1>Добро пожаловать в галерею</h1>
+        <h3>здесь вы можете увидеть, как проходят занятия</h3>
+        </div>
+        <section class="galery">
+            <h2 class="title">Галерея</h2>
+            <div class="galery-lst">
+                <a href="1.jpg"
+                class="galery-itm">
+                    <div class="galery-hover">Посмотреть</div>
+                    <img src="1.jpg" alt="alt">
+                </a>
+                <a href="2.jpg"
+                class="galery-itm">
+                    <div class="galery-hover">Посмотреть</div>
+                    <img src="2.jpg" alt="alt">
+                </a>
+                <a href="8.jpg"
+                class="galery-itm">
+                    <div class="galery-hover">Посмотреть</div>
+                    <img src="8.jpg" alt="alt">
+                </a>
+                <a href="4.jpg"
+                class="galery-itm">
+                    <div class="galery-hover">Посмотреть</div>
+                    <img src="4.jpg" alt="alt">
+                </a>
+                <a href="5.jpg"
+                class="galery-itm">
+                    <div class="galery-hover">Посмотреть</div>
+                    <img src="5.jpg" alt="alt">
+                </a>
+                <a href="6.png"
+                class="galery-itm">
+                    <div class="galery-hover">Посмотреть</div>
+                    <img src="6.png" alt="alt">
+                </a>
+                <a href="7.jpg"
+                class="galery-itm">
+                    <div class="galery-hover">Посмотреть</div>
+                    <img src="7.jpg" alt="alt">
+                </a>
+                <a href="3.jpg"
+                class="galery-itm">
+                    <div class="galery-hover">Посмотреть</div>
+                    <img src="3.jpg" alt="alt">
+                </a>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script>
+        $(".galery-lst").magnificPopup({
+            delegate: "a", type: "image", gallery: {
+                enabled:true
+            }
+        })
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <div id="footer">
+        <div class="main-content">
+            <div class="left box">
+                <h2>Социальные сети</h2>
+                <div class="content">
+                    <p>Вы можете найти нас в социальных сетях</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com"><span class="fab fa-facebook-f"></span></a>
+                        <a href="https://www.twitter.com/"><span class="fab fa-twitter"></span></a>
+                        <a href="https://www.instagram.com/vovan_mx188/"><span class="fab fa-instagram"></span></a>
+                        <a href="https://www.youtube.com/"><span class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>Контакты</h2>
+                <div class="content">
+                    <p>Свяжитесь с нами</p>
+                    <div class="place">
+                        <a href="filials.html#cont"><span class="fas fa-map-marker-alt"></span>
+                        <span class="text">Москва</span></a>
+                    </div>
+                    <div class="phone">
+                        <a href="tel: 89269269417"><span class="fas fa-phone-alt"></span>
+                        <span class="text">8-926-926-94-17</span></a>
+                    </div>
+                    <div class="email">
+                        <a href="mailto: sychev_188@mail.ru"><span class="fas fa-envelope"></span>
+                        <span class="text">sychev_188@mail.ru</span></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="right box">
+                <h2>Отправь сообщение<h2>
+                <div class="content">
+                    <form id="form_input">
+                        <label for="name">Имя <span>*</span></label><br>
+                            <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+                        <label for="email">Ваша почта <span>*</span></label><br> 
+                            <input type="email" placeholder="Введите email" name="email" id="email"><br> 
+                        <label for="message">Сообщение <span>*</span></label><br> 
+                            <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br> 
+                                <div id="mess_send" class="btn">Отправить</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script> 
+        function slowScroll(id) { 
+            $('html, body').animate({ 
+                scrollTop: $(id).offset().top 
+            }, 500); 
+        } 
+
+        $(document).on("scroll", function () { 
+            if($(window).scrollTop() === 0) 
+                $("header").removeClass("fixed"); 
+            else 
+                $("header").attr("class", "fixed"); 
+        }); 
+    </script>
+  </body>
+</html>

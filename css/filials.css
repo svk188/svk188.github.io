@@ -1,0 +1,152 @@
+.body3 {
+    background-image: url(https://cs10.pikabu.ru/post_img/2019/10/21/1/og_og_1571611252211249439.jpg);
+    background-blend-mode: multiply;
+    background-color: #545255;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+.container {
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+}
+#content_p{
+    font-size: 16px;
+}
+#metro{
+    padding-top: 5%;
+    color: rgb(184, 182, 182);
+    font-family: Nerko One;
+}
+
+.container ul li a {
+    color: rgb(184, 182, 182);
+}
+.container ul li a:hover {
+    color: red;
+}
+.container ul li {
+    list-style:none;
+    float: left;
+    width: 20%;
+    margin: 2% 2% 40px 2%;
+}
+
+.container ul h3{
+    font: 19px/1.5 Verdana, Helvetica, Sans-serif;
+}
+.container ul p {
+    font: 12px/1.5 Verdana, Helvetica, Sans-serif;
+}
+.container ul li a img {
+    background: #000000 ;
+    padding:5px;
+    border:2px solid silver;
+    max-width: 100%;
+}
+
+.container ul li a img:hover {
+    background: red;
+}
+@media only screen and (max-width: 940px) {
+    #metro{
+        padding-top: 15%;
+    }
+    .container ul li {
+        width: 23%;
+    }
+}
+@media only screen and (max-width: 720px) {
+    #metro{
+        padding-top: 25%;
+    }
+    .container ul li {
+        width: 23.5%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    #metro{
+        padding-top: 25%;
+    }
+    .container {
+        margin-left: 7%;
+    }
+    .container ul li {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 470px) {
+    #metro{
+        padding-top: 30%;
+    }
+    .container ul li {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #metro{
+        padding-top: 45%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    #metro{
+        padding-top: 50%;
+    }
+    .container ul li {
+        width: 93%;
+    }
+    
+}
+img{
+    padding-left: 2%;
+    width: 50px;
+    height: 50px;
+}
+h1 {
+    padding-bottom: 1%;
+    text-align: center;
+    color:White;
+}
+h3, p{
+    font-size: 10px;
+    
+}
+
+#cont {
+    border-bottom: 3px solid darkcyan;
+}
+#mapa {
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+@media (max-width:320px)
+{
+    iframe{
+        width: 300px;
+    }
+}
+@media (min-width:321px) and (max-width:375px)
+{
+    iframe{
+        width: 360px;
+    }
+}
+@media (max-width:450px) and (min-width:375px)
+{
+    iframe{
+        width: 360px;
+    }
+}
+@media (max-width:550px) and (min-width:450px)
+{
+    iframe{
+        width: 440px;
+    }
+}
+@media (max-width:650px) and (min-width:550px)
+{
+    iframe{
+        width: 540px;
+    }
+}
